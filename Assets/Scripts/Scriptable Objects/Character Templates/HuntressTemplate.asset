@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40aeed2676a6d3b46855fbc4cf9102b9, type: 3}
+  m_Name: HuntressTemplate
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 1872088907465301300, guid: 093b9f1f2627e6d479454fb36a4355cf, type: 3}
+  previewPrefab: {fileID: 4963246420645701259, guid: e553d43c3f2c3f44594b6ab9d5ee5e9f, type: 3}
+  health: 0
+  tileColor: 0
+  characterUpgrades: []

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40aeed2676a6d3b46855fbc4cf9102b9, type: 3}
+  m_Name: WitchTemplate
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 7401437754062974785, guid: 371199319cad96643b405b96d43bebc8, type: 3}
+  previewPrefab: {fileID: 4494131243269396390, guid: 6e8e54bd4e88771498dfb6529f8e3c2b, type: 3}
+  health: 0
+  tileColor: 0
+  characterUpgrades: []

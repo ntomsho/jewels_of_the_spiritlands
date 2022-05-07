@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4362611964909183498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4362611964909183496}
+  - component: {fileID: 4362611964909183497}
+  m_Layer: 0
+  m_Name: Battle Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4362611964909183496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362611964909183498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.028884169, y: 0.08391613, z: -0.23008163}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4362611964909183497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362611964909183498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25d342c8f1ca4e348b982de58c29a803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardManager: {fileID: 0}
+  onBattleEndSound: {fileID: 8300000, guid: c9f6775c38af244499c8f8e7c6833937, type: 3}
+  partyMembers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemies: []
+  bgSprites:
+  - {fileID: 21300000, guid: a68c5ea8f088d15468c5d950ab378108, type: 3}
+  - {fileID: 21300000, guid: d30b76f5ad881c346a5bb525dffd0ac0, type: 3}
+  - {fileID: 21300000, guid: d983c299da16b6b4e98f152118679e4c, type: 3}
+  - {fileID: 21300000, guid: f04fa02264f8f9641849e4f333ef1e68, type: 3}
+  - {fileID: 21300000, guid: 9150eaccf16fd104dac8f67ba6a5b910, type: 3}
+  - {fileID: 21300000, guid: 3ceb464b08964004ea37770d7b480b60, type: 3}
+  - {fileID: 21300000, guid: 3b9d18c2de836714a9764431a35844fb, type: 3}
+  - {fileID: 21300000, guid: 6bcd25b2dfb5bb441ae6c348e68b9885, type: 3}
+  - {fileID: 21300000, guid: b54a34747558ea0478d5ef98b2225e01, type: 3}
+  - {fileID: 21300000, guid: 50df00568974a5e428a30b31db36b1fa, type: 3}
+  targetIndicatorPrefab: {fileID: 4007945899039436201, guid: 05970ea0df1abad49863f694212d8be1, type: 3}
+  gemChargeParticles:
+  - {fileID: 306781335249766916, guid: 66ba7dfe9dbc57243bb26250ce0f71c4, type: 3}
+  - {fileID: 1448592351527233236, guid: d8398e7793c2cd049a8125cb636472b9, type: 3}
+  - {fileID: 6958773289703028852, guid: 7be1500f274b8334da54cbc3d68b1654, type: 3}
+  - {fileID: 5525159800443453259, guid: 1e8faa014df7623468203cfc6e1af8e7, type: 3}
+  - {fileID: 6267179112874880704, guid: 3dbc0ffc0ea36354c94e6e61547f0076, type: 3}
+  fireworks: {fileID: 198405478074982118, guid: 4adffb0018aeda44e9263f901167af1f, type: 3}

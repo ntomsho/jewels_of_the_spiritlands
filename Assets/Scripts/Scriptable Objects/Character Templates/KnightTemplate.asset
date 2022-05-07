@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40aeed2676a6d3b46855fbc4cf9102b9, type: 3}
+  m_Name: KnightTemplate
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 349366173643384360, guid: a6883116079b1da418e9f4be1a088483, type: 3}
+  previewPrefab: {fileID: 7858690608776601658, guid: 15df040b4a13ef44eb6315e23c8e0ac2, type: 3}
+  health: 0
+  tileColor: 0
+  characterUpgrades: []

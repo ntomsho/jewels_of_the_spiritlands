@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4150915568526143264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4150915568526143270}
+  - component: {fileID: 4150915568526143271}
+  m_Layer: 0
+  m_Name: Board Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4150915568526143270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4150915568526143264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4150915568526143271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4150915568526143264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed685564200f254b8e4b439d323c946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _debugBoard: 04000000000000000200000000000000020000000000000000000000030000000000000004000000020000000300000000000000010000000100000000000000010000000200000003000000040000000400000002000000030000000100000000000000
+  battleManager: {fileID: 0}
+  boardBGPrefab: {fileID: 8621343052853375455, guid: ef512921ce96c7e4e861cde7ebf8d034, type: 3}
+  boardTimeIncrement: 0.25
+  boardSize: 5
+  fallSpeed: 8
+  hintDelay: 5
+  tilePrefab: {fileID: 2180581480481088589, guid: a2da7dc003d5971449d5d676a83fe201, type: 3}
+  tileSprites:
+  - {fileID: 21300000, guid: d433a2f4198fc4a4aa84d623f4bd058e, type: 3}
+  - {fileID: 21300000, guid: b0dc63560e1ab63439d68330c273396d, type: 3}
+  - {fileID: 21300000, guid: fd80704262f6509458d9d3d385dc57c0, type: 3}
+  - {fileID: 21300000, guid: aab01957e89c9264bab3e433094bb32e, type: 3}
+  - {fileID: 21300000, guid: f3f423483747fce489d6619a83b4831e, type: 3}
+  glowSprites:
+  - {fileID: 21300000, guid: 12745daf4da710d4ea1542efb2c4d797, type: 3}
+  - {fileID: 21300000, guid: 0fe689f2df2a41342b0741f789d26958, type: 3}
+  - {fileID: 21300000, guid: f3ba5c76e11e2e0408c2115d1b6dc6a8, type: 3}
+  - {fileID: 21300000, guid: 8e21880104d5edf4690cf448b0d3443b, type: 3}
+  - {fileID: 21300000, guid: 43a55fbe80c1dc2439e79223a9574234, type: 3}
+  glowColors:
+  - {r: 0.87843144, g: 0.078431375, b: 0.3921569, a: 1}
+  - {r: 0.94117653, g: 0.7019608, b: 0.23529413, a: 1}
+  - {r: 0.003921569, g: 0.82745105, b: 0.078431375, a: 1}
+  - {r: 0, g: 0.5882353, b: 1, a: 1}
+  - {r: 0.93725497, g: 0.121568635, b: 1, a: 1}
+  columnClearSprites:
+  - {fileID: 21300000, guid: b20e1f8de55194e4985213eb1ac94615, type: 3}
+  - {fileID: 21300000, guid: c72146cb396a5e144a7348ba38f177ac, type: 3}
+  - {fileID: 21300000, guid: 590c5f9d9203a934cb2303b973a6ae96, type: 3}
+  - {fileID: 21300000, guid: b659a3a7c1a96624e9dbf442c3926ae1, type: 3}
+  - {fileID: 21300000, guid: a72a090267383ae4b9b6fcfa6406ea92, type: 3}
+  rowClearSprites:
+  - {fileID: 21300000, guid: 9b66ca74467207f479145ba747527928, type: 3}
+  - {fileID: 21300000, guid: a491088936974ee43a6152478ce9699c, type: 3}
+  - {fileID: 21300000, guid: c3270b31bbcd2b74b852c753e560ebb3, type: 3}
+  - {fileID: 21300000, guid: a123964f81276714bb5d7759a9111c2f, type: 3}
+  - {fileID: 21300000, guid: fdbe495338707bc4ab52481465d8e66b, type: 3}
+  colorBombSprites:
+  - {fileID: 21300000, guid: c249e186b71db3f478c5fd049bc485f1, type: 3}
+  - {fileID: 21300000, guid: fbda60bbe671df9439957a3f31ce50af, type: 3}
+  - {fileID: 21300000, guid: 2b8772315b21e6742bc9f130134d1428, type: 3}
+  - {fileID: 21300000, guid: 3a4395b022deca14db7b4f79652fe626, type: 3}
+  - {fileID: 21300000, guid: f3eb144611da4fe48a06db75ebd4002c, type: 3}
+  tileClearParticles:
+  - {fileID: 5794526769790854737, guid: f1ece31e82ae65c45a574768f808ea77, type: 3}
+  - {fileID: 3673179748201232608, guid: b3c7a6b40f374024497afc68ba040bf2, type: 3}
+  - {fileID: 2517514421895032497, guid: 2093dfe3bbbafcb43ae658351310de23, type: 3}
+  - {fileID: 1585218536150015845, guid: 4cef2f82f0ce2484081349f00710ec98, type: 3}
+  - {fileID: 1982460271713503831, guid: c6e207267ba56784cb8163dbff19b43b, type: 3}
+  lineClearParticles:
+  - {fileID: 1534863680207335605, guid: 3f80080139b6e384684b627d0bc4aa2d, type: 3}
+  - {fileID: 2808115863665403783, guid: d25c939842404924eb8b0c395a7b3678, type: 3}
+  - {fileID: 1162089425762709826, guid: 7dad6dfb3efe21e40a27312e1bc2d575, type: 3}
+  - {fileID: 8653765387911753043, guid: d50c3a879df43d74bb92222e175db71b, type: 3}
+  - {fileID: 4950386540519387446, guid: eb24de0b2cc24154987c8eea09956e3b, type: 3}
+  bombGlowSprite: {fileID: 21300000, guid: fcfe32a7d9c7d774b9023d872b509ab4, type: 3}
+  activateParticle: {fileID: 19800004, guid: 757df604761b8ef42831192c70ee1099, type: 3}
+  breakSFX1: {fileID: 8300000, guid: a0581a0e004d83c45a55c6f315b4f03c, type: 3}
+  breakSFX2: {fileID: 8300000, guid: 31da6763cab032941b33752dff32d2df, type: 3}
+  activateSpecialSound: {fileID: 8300000, guid: c7e07619167002a47a94b31e97233cea, type: 3}
