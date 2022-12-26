@@ -63,7 +63,7 @@ TextureImporter:
       213: -2661332398844600387
     second: arrow_sheet_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -84,6 +84,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,6 +123,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -137,6 +139,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -580,6 +606,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      arrow_sheet_3: -8221198534443510762
+      arrow_sheet_7: 2036685095101581854
+      arrow_sheet_14: -1515041129995075293
+      arrow_sheet_19: -2661332398844600387
+      arrow_sheet_16: -2202470255078789629
+      arrow_sheet_9: -5814473358275561676
+      arrow_sheet_18: 3310983192333328581
+      arrow_sheet_2: 6307816809715567844
+      arrow_sheet_5: -644163056422730441
+      arrow_sheet_12: 5020755997992778441
+      arrow_sheet_11: -557719614759569245
+      arrow_sheet_6: -6112137618773998278
+      arrow_sheet_17: 4052498169347160463
+      arrow_sheet_0: 4154269033526545840
+      arrow_sheet_15: 4547016840052647821
+      arrow_sheet_13: 5626777687542718210
+      arrow_sheet_1: 6929796847539506788
+      arrow_sheet_4: -5653577687671624502
+      arrow_sheet_8: 5596114693444862571
+      arrow_sheet_10: -1099190586790654724
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
